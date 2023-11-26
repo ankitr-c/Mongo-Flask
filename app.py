@@ -3,7 +3,7 @@ import datetime
 from bson import ObjectId
 from flask import Flask, jsonify, request, redirect, render_template
 
-uri = 'mongodb+srv://bbt0987:BBT0987@cluster0.jcazi2w.mongodb.net/?retryWrites=true&w=majority'
+uri = 'mongodb+srv://Yourusername:Yourpass@cluster0.jcazi2w.mongodb.net/?retryWrites=true&w=majority'
 client = MongoClient(uri)
 
 db = client.get_database('userdb')
